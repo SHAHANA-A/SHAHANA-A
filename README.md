@@ -14,82 +14,122 @@ Here are some ideas to get you started
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-# Hi there, I'm Shahana! 👋
-### 🎓 B.Tech Computer Science & Engineering Student | Aspiring Software Engineer
-
-I am a passionate Computer Science student dedicated to mastering programming languages, diving deep into software development, and building robust applications. I thrive on solving complex algorithmic problems and am actively seeking opportunities to contribute to meaningful coding projects and open-source communities.
-
----
-
-### ⚡ Quick About Me
-
-- 🎒 **Education:** Pursuing B.Tech in CSE at **[Your University/College Name]** (Expected Graduation: [Year])
-- 🌱 **Currently Learning:** Advanced Data Structures & Algorithms, System Design, and [Name a language/tech, e.g., Go / Rust]
-- 🎯 **Looking For:** Collaborative coding projects, open-source contributions, and hackathon teams
-- 💬 **Ask me about:** Java, Python, C++, or why clean code matters!
-
----
-
-### 🛠️ Tech Stack & Toolkit
-
-Here are the languages, frameworks, and tools I enjoy working with:
-
-#### 💻 Programming Languages
-<p align="left">
-  <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
-  <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
-  <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-</p>
-
-#### 🌐 Web Development & Databases
-<p align="left">
-  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
-</p>
-
-#### 🔧 Tools & Platforms
-<p align="left">
-  <img src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-</p>
-
----
-
-### 📊 GitHub Metrics
-
-*Note: Replace `YOUR-GITHUB-USERNAME` in the URLs below with your actual GitHub username to activate these real-time stats cards!*
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=tokyonight" alt="GitHub Stats" height="180" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR-GITHUB-USERNAME&theme=tokyonight" alt="GitHub Streak" height="180" />
-</p>
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-GITHUB-USERNAME&layout=compact&theme=tokyonight" alt="Top Languages" height="180" />
-</p>
-
----
-
-### 🤝 Connect With Me
-
-Let's build something awesome together! Feel free to reach out for project collaborations or just a casual tech chat.
-
-<p align="left">
-  <a href="https://linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-</p>
-
-<br />
+<!-- ========================= -->
+<!--          BANNER          -->
+<!-- ========================= -->
 
 <p align="center">
-  <sub>Built with ❤️ and Markdown. Let's collaborate!</sub>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:00C9FF&height=220&section=header&text=Shahana%20A&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=B.Tech%20Computer%20Science%20Student%20|%20Aspiring%20Software%20Developer&descAlignY=60" />
+</p>
+
+<h1 align="center">Hi 👋, I'm Shahana A</h1>
+
+<h3 align="center">
+A passionate Computer Science student from India 🇮🇳
+</h3>
+
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=25&duration=3500&pause=1000&color=00C9FF&center=true&vCenter=true&width=700&lines=B.Tech+Computer+Science+Student;Aspiring+Software+Developer;Learning+Web+Development;Always+Learning+New+Things+🚀">
+</p>
+
+---
+
+# 👩‍💻 About Me
+
+- 🎓 B.Tech Computer Science Student
+- 🏫 Vidya Academy of Science and Technology
+- 💻 Interested in Software Development
+- 🌱 Currently learning Java, Python, HTML, CSS and Git
+- 🚀 Improving my programming skills every day
+- 🎯 Goal: Become a Software Developer
+- 🎵 Love Music
+- 🎮 Love Gaming
+- 🎬 Movie Lover
+
+---
+
+# 🛠 Tech Stack
+
+### 💻 Programming Languages
+
+<p>
+<img src="https://skillicons.dev/icons?i=c,java,python"/>
+</p>
+
+### 🌐 Web Development
+
+<p>
+<img src="https://skillicons.dev/icons?i=html,css,javascript"/>
+</p>
+
+### ⚙️ Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode"/>
+</p>
+
+---
+
+# 🌱 Currently Learning
+
+- 📚 Data Structures & Algorithms
+- 🌐 Web Development
+- ☕ Java Programming
+- 🐍 Python
+- ⚡ Git & GitHub
+
+---
+
+# 📊 GitHub Stats
+
+<p align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+---
+
+# 👀 Profile Views
+
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=0e75b6&style=for-the-badge"/>
+
+</p>
+
+---
+
+# 🐍 Contribution Graph
+
+<p align="center">
+
+<img src="https://github.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/blob/output/github-contribution-grid-snake.svg"/>
+
+</p>
+
+---
+
+# 💭 Quote
+
+<p align="center">
+
+<i>"The beautiful thing about learning is that no one can take it away from you."</i>
+
+</p>
+
+---
+
+<p align="center">
+
+⭐ Thanks for visiting my profile! ⭐
+
 </p>
