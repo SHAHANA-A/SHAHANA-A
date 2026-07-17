@@ -25,7 +25,7 @@ Here are some ideas to get you started
 <h1 align="center">Hi 👋, I'm Shahana A</h1>
 
 <h3 align="center">
-A passionate Computer Science student from India 🇮🇳
+A passionate Computer Science student from India.
 </h3>
 
 <p align="center">
