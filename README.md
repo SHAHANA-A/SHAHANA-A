@@ -1,4 +1,4 @@
-## Hi Iam shahana
+
 
 <!--
 **SHAHANA-A/SHAHANA-A** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -112,7 +112,7 @@ A passionate Computer Science student from India.
 
 <p align="center">
 
-<img src="https://github.com/SHAHANA-A/SHAHANA-A/blob/output/github-contribution-grid-snake.svg"/>
+<img src="https://github.com/SHAHANA-A/SHAHANA-A/raw/output/github-contribution-grid-snake.svg"/>
 
 </p>
 
