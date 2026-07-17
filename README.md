@@ -84,15 +84,15 @@ A passionate Computer Science student from India 🇮🇳
 
 <p align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SHAHANA-A&show_icons=true&theme=tokyonight&hide_border=true"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SHAHANA-A&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </p>
 
 <p align="center">
 
-<img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true"/>
+<img src="https://streak-stats.demolab.com?user=SHAHANA-A&theme=tokyonight&hide_border=true"/>
 
 </p>
 
@@ -102,7 +102,7 @@ A passionate Computer Science student from India 🇮🇳
 
 <p align="center">
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&label=Profile%20Views&color=0e75b6&style=for-the-badge"/>
+<img src="https://komarev.com/ghpvc/?username=SHAHANA-A&label=Profile%20Views&color=0e75b6&style=for-the-badge"/>
 
 </p>
 
@@ -112,7 +112,7 @@ A passionate Computer Science student from India 🇮🇳
 
 <p align="center">
 
-<img src="https://github.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/blob/output/github-contribution-grid-snake.svg"/>
+<img src="https://github.com/SHAHANA-A/SHAHANA-A/blob/output/github-contribution-grid-snake.svg"/>
 
 </p>
 
