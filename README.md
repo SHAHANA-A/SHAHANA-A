@@ -14,7 +14,7 @@ Here are some ideas to get you started
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-# Hi there, I'm [Your Name]! 👋
+# Hi there, I'm Shahana! 👋
 ### 🎓 B.Tech Computer Science & Engineering Student | Aspiring Software Engineer
 
 I am a passionate Computer Science student dedicated to mastering programming languages, diving deep into software development, and building robust applications. I thrive on solving complex algorithmic problems and am actively seeking opportunities to contribute to meaningful coding projects and open-source communities.
