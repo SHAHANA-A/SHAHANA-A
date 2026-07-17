@@ -17,9 +17,6 @@ Here are some ideas to get you started
 <!-- ========================= -->
 <!--          BANNER          -->
 <!-- ========================= -->
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=blur&height=280&color=gradient&customColorList=24,20,17,30&text=Shahana%20A&fontSize=60&fontColor=ffffff&animation=fadeIn&desc=Computer%20Science%20Student%20%7C%20Web%20Developer%20%7C%20Programmer&descSize=20&descAlignY=60"/>
-</p>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:00C9FF&height=220&section=header&text=Shahana%20A&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=B.Tech%20Computer%20Science%20Student%20|%20Aspiring%20Software%20Developer&descAlignY=60" />
