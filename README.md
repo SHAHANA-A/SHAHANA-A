@@ -45,4 +45,3 @@ External resources actually used in the page are Lucide and Google Fonts. If the
 - Interactive controls have accessible names and visible keyboard focus.
 - A live region announces toast messages.
 - Reduced-motion preferences are respected.
-=======
