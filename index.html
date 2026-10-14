@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f513c">
+  <meta name="description" content="A clean, responsive student learning dashboard concept for CANVAS 2 CODE.">
+  <title>Vidya Student Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#" aria-label="Vidya dashboard home">
+        <span class="brand-mark">
+          <img src="assets/college-logo.jpg" alt="Vidya college logo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <span class="brand-fallback">V</span>
+        </span>
+        <span class="brand-caption">VIDYA <small>LEARN • GROW • ACHIEVE</small></span>
+      </a>
+
+      <div class="sidebar-label">WORKSPACE</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-item active" data-page="Dashboard"><i data-lucide="layout-dashboard"></i><span>Dashboard</span></button>
+        <button class="nav-item" data-page="My Courses"><i data-lucide="book-open"></i><span>My Courses</span></button>
+        <button class="nav-item" data-page="Messages"><i data-lucide="messages-square"></i><span>Messages</span><span class="nav-badge">3</span></button>
+        <button class="nav-item" data-page="Friends"><i data-lucide="users"></i><span>Friends</span></button>
+        <button class="nav-item" data-page="Schedule"><i data-lucide="calendar-days"></i><span>Schedule</span></button>
+        <button class="nav-item" data-page="To-Do List"><i data-lucide="list-checks"></i><span>To-Do List</span></button>
+        <button class="nav-item" data-page="Settings"><i data-lucide="settings"></i><span>Settings</span></button>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="streak-card">
+          <span class="streak-icon"><i data-lucide="sparkles"></i></span>
+          <div><strong>Keep it up!</strong><p>Small steps make big progress.</p></div>
+        </div>
+        <div class="sidebar-motto">Learn<br>Grow<br>Achieve <span>✦</span></div>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <button class="icon-button mobile-menu" id="menuToggle" aria-label="Open menu"><i data-lucide="menu"></i></button>
+        <label class="search-box">
+          <i data-lucide="search"></i>
+          <input id="globalSearch" type="search" placeholder="Search courses, activities..." aria-label="Search dashboard">
+          <kbd>⌘ K</kbd>
+        </label>
+        <div class="topbar-actions">
+          <button class="icon-button notification-button" id="notificationButton" aria-label="Notifications"><i data-lucide="bell"></i><span class="notification-dot">3</span></button>
+          <button class="icon-button" id="settingsButton" aria-label="Open settings"><i data-lucide="sliders-horizontal"></i></button>
+          <button class="profile-trigger" id="profileButton" aria-expanded="false">
+            <span class="avatar avatar-large avatar-photo">SA</span>
+            <span class="profile-trigger-text"><strong>Shahana .A</strong><small>2nd Year CSE</small></span>
+            <i data-lucide="chevron-down" class="chevron"></i>
+          </button>
+        </div>
+      </header>
+
+      <div class="page-content">
+        <section class="welcome-banner">
+          <div class="welcome-copy">
+            <span class="eyebrow"><span class="eyebrow-dot"></span> YOUR LEARNING SPACE</span>
+            <h1>Hello, Shahana! <span class="wave">👋</span></h1>
+            <p>Keep learning, keep growing. Your future is built by what you do today.</p>
+            <div class="welcome-meta"><span><i data-lucide="calendar-check"></i> Wednesday, October 14</span><span class="meta-divider"></span><span><i data-lucide="sun"></i> Make today count</span></div>
+          </div>
+          <div class="welcome-art" aria-hidden="true">
+            <div class="art-circle circle-one"></div><div class="art-circle circle-two"></div>
+            <div class="plant"><span></span><span></span><span></span><b></b></div>
+            <div class="book book-one"></div><div class="book book-two"></div><div class="book book-three"></div>
+            <div class="laptop"><div class="laptop-screen"><span></span><span></span><span></span></div><div class="laptop-base"></div></div>
+            <div class="art-sparkle sparkle-one">✦</div><div class="art-sparkle sparkle-two">✧</div>
+          </div>
+        </section>
+
+        <div class="dashboard-grid">
+          <div class="primary-column">
+            <section class="panel subjects-panel" id="subjectsSection">
+              <div class="section-heading">
+                <div><span class="section-kicker">YOUR LEARNING</span><h2>My Subjects <span class="count-pill">06</span></h2></div>
+                <button class="text-link" id="viewAllSubjects">View all <i data-lucide="arrow-up-right"></i></button>
+              </div>
+              <div class="subject-grid" id="subjectGrid">
+                <button class="subject-card lavender" data-subject="Artificial Intelligence" data-description="Explore the future with AI and machine learning." data-progress="68">
+                  <span class="subject-icon"><i data-lucide="brain-circuit"></i></span><span class="subject-label">Artificial Intelligence</span><span class="subject-description">Explore the future with AI and machine learning.</span><span class="subject-bottom"><span>68% complete</span><span class="round-arrow"><i data-lucide="arrow-up-right"></i></span></span><span class="progress-track"><span style="width:68%"></span></span>
+                </button>
+                <button class="subject-card peach" data-subject="Operating Systems" data-description="Learn how systems work behind the scenes." data-progress="52">
+                  <span class="subject-icon"><i data-lucide="monitor-cog"></i></span><span class="subject-label">Operating Systems</span><span class="subject-description">Learn how systems work behind the scenes.</span><span class="subject-bottom"><span>52% complete</span><span class="round-arrow"><i data-lucide="arrow-up-right"></i></span></span><span class="progress-track"><span style="width:52%"></span></span>
+                </button>
+                <button class="subject-card yellow" data-subject="Web Programming" data-description="Build websites and interactive web applications." data-progress="81">
+                  <span class="subject-icon"><i data-lucide="code-2"></i></span><span class="subject-label">Web Programming</span><span class="subject-description">Build websites and web applications.</span><span class="subject-bottom"><span>81% complete</span><span class="round-arrow"><i data-lucide="arrow-up-right"></i></span></span><span class="progress-track"><span style="width:81%"></span></span>
+                </button>
+                <button class="subject-card teal" data-subject="Cloud Computing" data-description="Store, manage and scale services in the cloud." data-progress="43">
+                  <span class="subject-icon"><i data-lucide="cloud"></i></span><span class="subject-label">Cloud Computing</span><span class="subject-description">Store, manage and scale in the cloud.</span><span class="subject-bottom"><span>43% complete</span><span class="round-arrow"><i data-lucide="arrow-up-right"></i></span></span><span class="progress-track"><span style="width:43%"></span></span>
+                </button>
+                <button class="subject-card pink" data-subject="Software Engineering" data-description="Design, build and manage real-world software." data-progress="60">
+                  <span class="subject-icon"><i data-lucide="workflow"></i></span><span class="subject-label">Software Engineering</span><span class="subject-description">Design, build and manage real-world software.</span><span class="subject-bottom"><span>60% complete</span><span class="round-arrow"><i data-lucide="arrow-up-right"></i></span></span><span class="progress-track"><span style="width:60%"></span></span>
+                </button>
+                <button class="subject-card green" data-subject="Graphic Designing" data-description="Turn ideas into engaging visuals and designs." data-progress="35">
+                  <span class="subject-icon"><i data-lucide="palette"></i></span><span class="subject-label">Graphic Designing</span><span class="subject-description">Turn ideas into engaging visuals.</span><span class="subject-bottom"><span>35% complete</span><span class="round-arrow"><i data-lucide="arrow-up-right"></i></span></span><span class="progress-track"><span style="width:35%"></span></span>
+                </button>
+              </div>
+              <p class="empty-search" id="emptySearch" hidden>No subjects match your search. Try another keyword.</p>
+            </section>
+
+            <div class="lower-grid">
+              <section class="panel activity-panel">
+                <div class="section-heading compact-heading"><div><span class="section-kicker">STAY IN THE LOOP</span><h2>Recent Activities</h2></div><button class="text-link" id="activityViewAll">View all <i data-lucide="arrow-up-right"></i></button></div>
+                <div class="activity-list" id="activityList">
+                  <article class="activity-item" data-searchable="submitted assignment web programming"><span class="activity-icon activity-purple"><i data-lucide="file-check-2"></i></span><div class="activity-copy"><strong>You submitted Assignment 2</strong><p>Web Programming · Great work!</p></div><time>2h ago</time></article>
+                  <article class="activity-item" data-searchable="new message anjali"><span class="activity-icon activity-cyan"><i data-lucide="message-circle"></i></span><div class="activity-copy"><strong>New message from Anjali</strong><p>Hey! Are you coming to the college fest?</p></div><time>3h ago</time></article>
+                  <article class="activity-item" data-searchable="joined group cse batch"><span class="activity-icon activity-green"><i data-lucide="users"></i></span><div class="activity-copy"><strong>You joined the group “CSE Batch”</strong><p>Connect with your classmates.</p></div><time>4h ago</time></article>
+                  <article class="activity-item" data-searchable="upcoming operating systems quiz"><span class="activity-icon activity-orange"><i data-lucide="calendar-clock"></i></span><div class="activity-copy"><strong>Upcoming: Operating Systems Quiz</strong><p>Tomorrow at 10:00 AM</p></div><time>Today</time></article>
+                </div>
+              </section>
+
+              <section class="panel todo-panel" id="todoSection">
+                <div class="section-heading compact-heading"><div><span class="section-kicker">ONE STEP AT A TIME</span><h2>To-Do List</h2></div><span class="todo-counter" id="todoCounter">1/4 done</span></div>
+                <div class="todo-list">
+                  <label class="todo-item completed"><input type="checkbox" checked><span class="custom-check"><i data-lucide="check"></i></span><span class="todo-copy"><strong>Complete Web Programming Assignment</strong><small>Today · 11:59 PM</small></span></label>
+                  <label class="todo-item"><input type="checkbox"><span class="custom-check"><i data-lucide="check"></i></span><span class="todo-copy"><strong>Study Operating Systems (Chapter 4)</strong><small>Tomorrow</small></span></label>
+                  <label class="todo-item"><input type="checkbox"><span class="custom-check"><i data-lucide="check"></i></span><span class="todo-copy"><strong>Prepare for AI Seminar</strong><small>16 Oct 2026</small></span></label>
+                  <label class="todo-item"><input type="checkbox"><span class="custom-check"><i data-lucide="check"></i></span><span class="todo-copy"><strong>Read Software Engineering Notes</strong><small>18 Oct 2026</small></span></label>
+                </div>
+                <form class="add-task-form" id="addTaskForm"><input id="newTask" type="text" placeholder="Add a task..." aria-label="New task" maxlength="80"><button type="submit" aria-label="Add task"><i data-lucide="plus"></i></button></form>
+              </section>
+            </div>
+          </div>
+
+          <aside class="right-column">
+            <section class="panel profile-card">
+              <div class="section-heading compact-heading"><h2>My Profile</h2><button class="text-link" id="viewProfile">View profile <i data-lucide="arrow-up-right"></i></button></div>
+              <div class="profile-details"><div class="avatar avatar-profile">SA</div><div class="profile-info"><strong>Shahana .A</strong><span>BTech Computer Science</span><span>Vidya Academy of Science<br>and Technology</span></div></div>
+              <div class="profile-contact"><span><i data-lucide="mail"></i> shahana@example.com</span><span><i data-lucide="map-pin"></i> Kerala, India</span></div>
+            </section>
+
+            <section class="panel online-panel">
+              <div class="section-heading compact-heading"><h2>Online Users</h2><span class="online-count"><i></i> 12 online</span></div>
+              <div class="online-users">
+                <button class="user-chip" data-name="Anjali"><span class="avatar user-avatar avatar-a">A</span><span>Anjali</span></button>
+                <button class="user-chip" data-name="Fathima"><span class="avatar user-avatar avatar-b">F</span><span>Fathima</span></button>
+                <button class="user-chip" data-name="Arjun"><span class="avatar user-avatar avatar-c">A</span><span>Arjun</span></button>
+                <button class="user-chip" data-name="Megha"><span class="avatar user-avatar avatar-d">M</span><span>Megha</span></button>
+                <button class="user-chip" data-name="Rahul"><span class="avatar user-avatar avatar-e">R</span><span>Rahul</span></button>
+                <button class="more-users" id="moreUsers" aria-label="Show more online users">+7</button>
+              </div>
+            </section>
+
+            <section class="panel calendar-panel" id="calendarSection">
+              <div class="section-heading compact-heading"><div><span class="section-kicker">PLAN YOUR WEEK</span><h2>Calendar</h2></div><button class="today-link" id="todayButton">Today</button></div>
+              <div class="calendar-header"><button class="calendar-nav" id="prevMonth" aria-label="Previous month"><i data-lucide="chevron-left"></i></button><strong id="calendarMonth">October 2026</strong><button class="calendar-nav" id="nextMonth" aria-label="Next month"><i data-lucide="chevron-right"></i></button></div>
+              <div class="calendar-grid" id="calendarGrid" aria-label="Calendar dates"></div>
+              <div class="calendar-legend"><span><i></i> Selected date</span><span><b></b> Upcoming task</span></div>
+            </section>
+
+            <section class="panel quicklinks-panel">
+              <div class="section-heading compact-heading"><h2><i data-lucide="zap"></i> Quick Links</h2></div>
+              <div class="quick-links">
+                <button data-quicklink="Course Materials"><i data-lucide="file-text"></i><span>Course Materials</span><i data-lucide="arrow-up-right" class="quick-arrow"></i></button>
+                <button data-quicklink="Assignments"><i data-lucide="clipboard-check"></i><span>Assignments</span><i data-lucide="arrow-up-right" class="quick-arrow"></i></button>
+                <button data-quicklink="Exam Schedule"><i data-lucide="calendar-days"></i><span>Exam Schedule</span><i data-lucide="arrow-up-right" class="quick-arrow"></i></button>
+                <button data-quicklink="Notes"><i data-lucide="notebook-pen"></i><span>Notes</span><i data-lucide="arrow-up-right" class="quick-arrow"></i></button>
+              </div>
+            </section>
+          </aside>
+        </div>
+        <footer class="page-footer"><span>© 2026 Vidya Student Space</span><span>Designed for learning <span class="footer-heart">♥</span></span></footer>
+      </div>
+    </main>
+  </div>
+
+  <div class="toast-region" id="toastRegion" aria-live="polite" aria-atomic="true"></div>
+  <dialog class="detail-dialog" id="detailDialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Close dialog"><i data-lucide="x"></i></button>
+    <span class="dialog-icon"><i data-lucide="book-open"></i></span>
+    <p class="section-kicker">SUBJECT OVERVIEW</p>
+    <h2 id="dialogTitle">Subject</h2>
+    <p id="dialogDescription">Subject details will appear here.</p>
+    <div class="dialog-progress"><div><span>Learning progress</span><strong id="dialogProgress">0%</strong></div><span class="progress-track"><span id="dialogProgressBar"></span></span></div>
+    <button class="primary-button" id="dialogAction">Continue learning <i data-lucide="arrow-right"></i></button>
+
+<div class="course-materials">
+  <h3>Course Materials</h3>
+  <label for="materialUpload">Upload materials (PDF, PPT, DOC)</label>
+  <input
+    type="file"
+    id="materialUpload"
+    accept=".pdf,.ppt,.pptx,.doc,.docx"
+    multiple
+  >
+  <ul id="materialList"></ul>
+</div>
+
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
